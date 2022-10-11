@@ -1,7 +1,12 @@
-
 var age = 20;
 
-console.log ('age >= 18? adult : 'teenager';) 
-if (age >=18) {
-    console.log ('adult')
-} 
+if(age >= 18){
+    console.log('adult')
+}
+
+//============================================================================
+
+var jumlah = 1;
+var jm = (jumlah > 5) ? "banyak" : "dikit";
+
+console.log(jm)
