@@ -10,7 +10,7 @@ The alert function takes a single parameter, which is the text displayed in the 
 */
 
 // Prompt Box A prompt box is often used to have the user input a value before entering a page.
-var user = prompt("andika");
+var user = prompt("user");
 alert(user);
 
 /*
