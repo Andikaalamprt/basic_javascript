@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function cekbb(nama, bb){
+            this.nama = nama;
+            this.bb = bb;
+            this.cekstatus = function(){
+                if(bb >= 55 && bb <= 90){
+                alert("Kamu punya berat badan buruk!")
+                console.log("buruk")
+                }else if(bb >= 70 && bb <= 120){
+                alert("Kamu perlu olahraga!")
+                console.log("Olahraga!")
+                }else if(bb >= 120){
+                alert("Kamu harus kurangi makan!")
+                console.log("Kurangi makan!")
+                }else{
+                alert("Kamu harus diet!")
+                console.log("diet!")
+            }
+            }
+        }
+        var name = prompt("Siapa Namamu?");
+        var weight = prompt("Seberapa Berat Badanmu?")
+        var romi = new cekbb(name, weight)
+        console.log(romi)
+        console.log(romi.cekstatus())
+    </script>
+</body>
+</html>

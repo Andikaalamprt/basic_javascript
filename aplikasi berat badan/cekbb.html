@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Berat Badan</title>
+</head>
+<body>
+    <script>
+        function cekbb(nama, bb){
+            nama = prompt("Siapa Nama Mu?")
+            alert("Halo "+nama+" !")
+            document.write("Nama saya: ", nama)
+            bb = prompt("Berapa Berat Badan Kamu?")
+            if(bb >= 55 && bb <= 70){
+                alert("Kamu punya berat badan buruk!")
+            }else if(bb >= 70 && bb <= 120){
+                alert("Kamu perlu olahraga!")
+            }else if(bb >= 120){
+                alert("Kamu harus kurangi makan!")
+            }else{
+                alert("Kamu harus diet!")
+            }
+        }
+
+        cekbb();     
+    </script>
+</body>
+</html>
