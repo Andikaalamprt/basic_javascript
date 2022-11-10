@@ -18,5 +18,5 @@ function cekbb(nama, bb){
 }
 }
 
-var romi = new cekbb("andika", 80)
+var andika = new cekbb("andika", 80)
 console.log(andika.cekstatus())
